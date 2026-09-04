@@ -87,7 +87,6 @@ function validateNewIdea(input) {
   const desired = String(input.desired || '').trim()
   if (title.length < 5) throw new Error('El título debe tener al menos 5 caracteres.')
   if (description.length < 10) throw new Error('Describe brevemente la situación actual.')
-  if (desired.length < 10) throw new Error('Describe el resultado que te gustaría conseguir.')
   return { title, description, desired }
 }
 
