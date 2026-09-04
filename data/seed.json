@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 3,
+  "updatedAt": "2026-09-04T21:20:00.000Z",
+  "currentUser": {
+    "id": "demo-tomas",
+    "name": "Tomás R.",
+    "initials": "TR",
+    "area": "Transformación"
+  },
+  "challenge": {
+    "title": "¿Qué tarea repetitiva te gustaría no volver a hacer manualmente?",
+    "month": "Septiembre 2026",
+    "description": "Comparte una tarea que hoy consume tiempo y podría simplificarse, automatizarse o eliminarse."
+  },
+  "ideas": [
+    {
+      "id": "IDEA-2026-041",
+      "title": "Automatizar consolidación mensual de cartera",
+      "description": "Cada cierre se descargan archivos desde distintos sistemas, se normalizan columnas y se consolidan manualmente antes de reportar.",
+      "desired": "Un flujo que consolide y valide automáticamente los archivos y deje solo las excepciones para revisión.",
+      "type": "Repetitiva",
+      "area": "Operaciones",
+      "author": "María P.",
+      "authorId": "user-maria",
+      "createdAt": "2026-09-02",
+      "status": "En evaluación",
+      "benefit": [
+        "Tiempo",
+        "Calidad"
+      ],
+      "hours": 8,
+      "people": 5,
+      "votes": 18,
+      "supportedBy": [],
+      "impact": 5,
+      "effort": 2,
+      "participate": true,
+      "reviewNote": "Estamos validando el origen de los archivos y el volumen mensual para dimensionar un quick win.",
+      "history": [
+        {
+          "status": "Recibida",
+          "date": "2026-09-02",
+          "note": "Idea recibida en Transforma+."
+        },
+        {
+          "status": "En evaluación",
+          "date": "2026-09-03",
+          "note": "Transformación inició análisis de impacto y factibilidad."
+        }
+      ]
+    },
+    {
+      "id": "IDEA-2026-040",
+      "title": "Portal de estado para solicitudes de clientes",
+      "description": "Clientes y comerciales preguntan por correo el estado de sus solicitudes, lo que genera seguimiento manual y respuestas repetidas.",
+      "desired": "Una vista simple donde el cliente o comercial pueda consultar el estado sin pedirlo por correo.",
+      "type": "Idea",
+      "area": "Comercial",
+      "author": "Diego R.",
+      "authorId": "user-diego",
+      "createdAt": "2026-08-29",
+      "status": "Priorizada",
+      "benefit": [
+        "Cliente",
+        "Tiempo"
+      ],
+      "hours": 16,
+      "people": 12,
+      "votes": 32,
+      "supportedBy": [],
+      "impact": 5,
+      "effort": 4,
+      "participate": true,
+      "reviewNote": "La iniciativa fue priorizada para discovery. Se revisarán alcance, integraciones y experiencia de usuario.",
+      "history": [
+        {
+          "status": "Recibida",
+          "date": "2026-08-29",
+          "note": "Idea recibida en Transforma+."
+        },
+        {
+          "status": "En evaluación",
+          "date": "2026-08-31",
+          "note": "Se validó el dolor con Comercial y Servicio al Cliente."
+        },
+        {
+          "status": "Priorizada",
+          "date": "2026-09-02",
+          "note": "Aprobada para discovery y definición de alcance."
+        }
+      ]
+    },
+    {
+      "id": "IDEA-2026-039",
+      "title": "Validación automática de archivo antes de carga",
+      "description": "Un archivo de entrada suele traer formatos o campos incorrectos y el error se detecta recién cuando el proceso ya falló.",
+      "desired": "Validar estructura, campos obligatorios y formatos antes de aceptar la carga.",
+      "type": "Problema",
+      "area": "Finanzas",
+      "author": "Paula S.",
+      "authorId": "user-paula",
+      "createdAt": "2026-08-26",
+      "status": "En desarrollo",
+      "benefit": [
+        "Calidad",
+        "Riesgo"
+      ],
+      "hours": 6,
+      "people": 7,
+      "votes": 21,
+      "supportedBy": [],
+      "impact": 4,
+      "effort": 2,
+      "participate": false,
+      "reviewNote": "Ya existe un prototipo de validación. El equipo está probando reglas con archivos históricos.",
+      "history": [
+        {
+          "status": "Recibida",
+          "date": "2026-08-26",
+          "note": "Idea recibida en Transforma+."
+        },
+        {
+          "status": "En evaluación",
+          "date": "2026-08-27",
+          "note": "Se revisaron errores frecuentes y reglas de negocio."
+        },
+        {
+          "status": "Priorizada",
+          "date": "2026-08-29",
+          "note": "Quick win aprobado para ejecución."
+        },
+        {
+          "status": "En desarrollo",
+          "date": "2026-09-01",
+          "note": "Prototipo en construcción y pruebas internas."
+        }
+      ]
+    },
+    {
+      "id": "IDEA-2026-038",
+      "title": "Resumen inteligente de correos operativos",
+      "description": "En ciertos buzones se reciben muchos correos operativos y cuesta identificar rápidamente cuáles requieren una acción.",
+      "desired": "Clasificar los mensajes por urgencia, tema y responsable, mostrando un resumen accionable.",
+      "type": "Automatizable",
+      "area": "Claims",
+      "author": "Andrés C.",
+      "authorId": "user-andres",
+      "createdAt": "2026-08-22",
+      "status": "En evaluación",
+      "benefit": [
+        "Tiempo",
+        "Servicio"
+      ],
+      "hours": 10,
+      "people": 8,
+      "votes": 27,
+      "supportedBy": [],
+      "impact": 4,
+      "effort": 3,
+      "participate": true,
+      "reviewNote": "Se está validando el caso con Seguridad e IT para definir un enfoque compatible con las herramientas corporativas.",
+      "history": [
+        {
+          "status": "Recibida",
+          "date": "2026-08-22",
+          "note": "Idea recibida en Transforma+."
+        },
+        {
+          "status": "En evaluación",
+          "date": "2026-08-25",
+          "note": "Discovery con Claims para entender volumen, categorías y responsables."
+        }
+      ]
+    },
+    {
+      "id": "IDEA-2026-037",
+      "title": "Checklist digital para onboarding interno",
+      "description": "El alta de nuevas personas depende de correos entre varias áreas y no siempre existe visibilidad de lo que falta.",
+      "desired": "Un checklist compartido con responsables, fechas y notificaciones automáticas.",
+      "type": "Idea",
+      "area": "People",
+      "author": "Camila M.",
+      "authorId": "user-camila",
+      "createdAt": "2026-08-18",
+      "status": "Implementada",
+      "benefit": [
+        "Experiencia",
+        "Tiempo"
+      ],
+      "hours": 4,
+      "people": 20,
+      "votes": 24,
+      "supportedBy": [],
+      "impact": 4,
+      "effort": 1,
+      "participate": true,
+      "reviewNote": "Implementada. El checklist ya centraliza responsables y reduce seguimientos por correo.",
+      "history": [
+        {
+          "status": "Recibida",
+          "date": "2026-08-18",
+          "note": "Idea recibida en Transforma+."
+        },
+        {
+          "status": "En evaluación",
+          "date": "2026-08-19",
+          "note": "Se confirmó impacto transversal entre People, IT y Facilities."
+        },
+        {
+          "status": "Priorizada",
+          "date": "2026-08-20",
+          "note": "Quick win aprobado."
+        },
+        {
+          "status": "En desarrollo",
+          "date": "2026-08-21",
+          "note": "Configuración y pruebas con usuarios clave."
+        },
+        {
+          "status": "Implementada",
+          "date": "2026-08-25",
+          "note": "Solución publicada para el proceso de onboarding."
+        }
+      ]
+    },
+    {
+      "id": "IDEA-2026-036",
+      "title": "Dashboard único de indicadores comerciales",
+      "description": "Los indicadores se consultan en múltiples archivos y cada equipo mantiene una versión distinta.",
+      "desired": "Una vista única y confiable para seguimiento semanal.",
+      "type": "Idea",
+      "area": "Comercial",
+      "author": "Felipe A.",
+      "authorId": "user-felipe",
+      "createdAt": "2026-08-10",
+      "status": "Implementada",
+      "benefit": [
+        "Decisión",
+        "Calidad"
+      ],
+      "hours": 12,
+      "people": 18,
+      "votes": 30,
+      "supportedBy": [],
+      "impact": 5,
+      "effort": 2,
+      "participate": false,
+      "reviewNote": "Implementada. Se definió una fuente única y una vista semanal para los indicadores principales.",
+      "history": [
+        {
+          "status": "Recibida",
+          "date": "2026-08-10",
+          "note": "Idea recibida en Transforma+."
+        },
+        {
+          "status": "En evaluación",
+          "date": "2026-08-11",
+          "note": "Se identificaron fuentes y responsables de cada KPI."
+        },
+        {
+          "status": "Priorizada",
+          "date": "2026-08-13",
+          "note": "Iniciativa aprobada."
+        },
+        {
+          "status": "En desarrollo",
+          "date": "2026-08-14",
+          "note": "Construcción y validación del dashboard."
+        },
+        {
+          "status": "Implementada",
+          "date": "2026-08-20",
+          "note": "Dashboard liberado a usuarios comerciales."
+        }
+      ]
+    }
+  ]
+}
